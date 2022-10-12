@@ -11,14 +11,14 @@ void prime(int n) {
             }
         }
     }
-
+//loop for checking 
     for(int i=2; i<=n; i++) {
         if(prime[i]==0) {
             cout << i << " ";
         }
     }
 }
-
+//main program 
 int main() {
     int n;
     cin >> n;

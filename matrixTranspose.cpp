@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <bits/stdc++.h> //including header files
 using namespace std;
 
 int main() {
@@ -27,6 +27,7 @@ int main() {
             cout << a[i][j] << " ";
         }
         cout << endl;
+        //line change for proper format of matrix
     }
     return 0;
 }
